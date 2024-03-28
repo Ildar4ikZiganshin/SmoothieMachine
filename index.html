@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smoothie Machine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Welcome to the Smoothie Machine!</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Create Your Own Smoothie</h2>
+            <form id="smoothieForm">
+                <label class="heading" for="nameInput">Smoothie Name:</label>
+                <input class="smoothie-name" type="text" id="nameInput" placeholder="Enter smoothie name" required>
+                <br>
+                <label class="heading">Select the ingredients:</label>
+                <div class="container">
+                  <div>
+                    <input type="checkbox" id="ingredient1" name="ingredient" value="Strawberry">
+                    <label for="ingredient1">Strawberry</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="ingredient2" name="ingredient" value="Banana">
+                    <label for="ingredient2">Banana</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="ingredient3" name="ingredient" value="Mango">
+                    <label for="ingredient3">Mango</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="ingredient4" name="ingredient" value="Kiwi">
+                    <label for="ingredient4">Kiwi</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="ingredient5" name="ingredient" value="Green Apple">
+                    <label for="ingredient5">Green Apple</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="ingredient6" name="ingredient" value="Red Apple">
+                    <label for="ingredient6">Red Apple</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="ingredient7" name="ingredient" value="Avocado">
+                    <label for="ingredient7">Avocado</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="ingredient8" name="ingredient" value="Blueberry">
+                    <label for="ingredient8">Blueberry</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="ingredient9" name="ingredient" value="Raspberry">
+                    <label for="ingredient9">Raspberry</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="ingredient10" name="ingredient" value="Pear">
+                    <label for="ingredient10">Pear</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="ingredient11" name="ingredient" value="Watermelon">
+                    <label for="ingredient11">Watermelon</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="ingredient12" name="ingredient" value="Melon">
+                    <label for="ingredient12">Melon</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="ingredient13" name="ingredient" value="Cucumber">
+                    <label for="ingredient13">Cucumber</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="ingredient14" name="ingredient" value="Grapes">
+                    <label for="ingredient14">Grapes</label>
+                  </div>
+                </div>
+
+                <!-- Add more ingredient options as needed -->
+
+                <label class="heading" for="sizeSelect">Size:</label>
+                <select class="smoothie-size" id="sizeSelect" required>
+                    <option value="Not Selected">Select Size</option>
+                    <option value="Small(200ml)">Small(200ml)</option>
+                    <option value="Medium(350ml)">Medium(350ml)</option>
+                    <option value="Large(410ml)">Large(410ml)</option>
+                </select>
+                <br>
+                <label class="heading">Select the toppings:</label>
+                <div class="container-1">
+                  <div>
+                    <input type="checkbox" id="topping1" name="topping" value="Granola">
+                    <label for="topping1">Granola</label>
+                  </div>
+                  <div>
+                      <input type="checkbox" id="topping2" name="topping" value="Honey">
+                      <label for="topping2">Honey</label>
+                  </div>
+                  <div>
+                      <input type="checkbox" id="topping3" name="topping" value="Chocolate Chips">
+                      <label for="topping3">Chocolate Chips</label>
+                  </div>
+                  <div>
+                      <input type="checkbox" id="topping4" name="topping" value="Coconut Flakes">
+                      <label for="topping4">Coconut Flakes</label>
+                  </div>
+                </div>
+                <!-- Add more topping options as needed -->
+
+                <button type="button" id="orderBtn">Order</button>
+            </form>
+        </section>
+
+        <section class="form-output" id="outputSection">
+            <!-- This section will display the ordered smoothie -->
+        </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,246 @@
+/* Add your CSS styles here */
+body {
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ff6600;
+  background-color: #ffffff;
+  background-image: url(img/bg.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.wrapper{
+  text-align: center;
+  background-color: #ffffff6e;
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.smoothie-name::placeholder{
+  color: #979797;
+  background: none;
+}
+
+.smoothie-name, .smoothie-size{
+  border: none;
+  color: #e9981e;
+  font-size: 18px;
+  border-bottom: 2px solid #e9981e;
+}
+.smoothie-size{
+  padding: 5px 10px;
+}
+
+section, form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1200px;
+  /* margin: 0 auto; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container div{
+  margin: 10px;
+
+}
+
+.container div label{
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  background: #424242;
+  padding: 15px 30px;
+  color: #555;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  font-size: 20px;
+  transition: 0.5s;
+  user-select: none;
+  overflow: hidden;
+}
+
+.container div input[type="checkbox"] {
+  display: none;
+}
+/* INGRIDIENTS COLOR */
+.container div:nth-child(1) input[type="checkbox"]:checked + label{
+  background: #e91e1e;
+  color: #fff;
+  box-shadow: 0 2px 20px #e91e1e;
+}
+
+.container div:nth-child(2) input[type="checkbox"]:checked + label{
+  background: #e9dc1e;
+  color: #fff;
+  box-shadow: 0 2px 20px #e9dc1e;
+}
+
+.container div:nth-child(3) input[type="checkbox"]:checked + label{
+  background: #e9981e;
+  color: #fff;
+  box-shadow: 0 2px 20px #e9981e;
+}
+
+.container div:nth-child(4) input[type="checkbox"]:checked + label{
+  background: #29720a;
+  color: #fff;
+  box-shadow: 0 2px 20px #29720a;
+}
+
+.container div:nth-child(5) input[type="checkbox"]:checked + label{
+  background: linear-gradient(45deg, #05b505, #29720a);
+  color: #fff;
+  box-shadow: 0 2px 20px linear-gradient(45deg, #05b505, #29720a);
+}
+
+.container div:nth-child(6) input[type="checkbox"]:checked + label{
+  background: linear-gradient(45deg, #aa1005, #6f0902);
+  color: #fff;
+  box-shadow: 0 2px 20px linear-gradient(45deg, #aa1005, #6f0902);
+}
+
+.container div:nth-child(7) input[type="checkbox"]:checked + label{
+  background: #145708;
+  color: #fff;
+  box-shadow: 0 2px 20px #145708;
+}
+
+.container div:nth-child(8) input[type="checkbox"]:checked + label{
+  background: linear-gradient(45deg, #23039f, #300060);
+  color: #fff;
+  box-shadow: 0 2px 20px #23039f;
+}
+
+.container div:nth-child(9) input[type="checkbox"]:checked + label{
+  background: #9a0747;
+  color: #fff;
+  box-shadow: 0 2px 20px #9a0747;
+}
+
+.container div:nth-child(10) input[type="checkbox"]:checked + label{
+  background: linear-gradient(45deg, #205719, #b9c304);
+  color: #fff;
+  box-shadow: 0 2px 20px linear-gradient(45deg, #205719, #b9c304);
+}
+
+.container div:nth-child(11) input[type="checkbox"]:checked + label{
+  background: linear-gradient(45deg, #29720a,#e91e1e);
+  color: #fff;
+  box-shadow: 0 2px 20px linear-gradient(45deg, #29720a, #e91e1e);
+}
+
+.container div:nth-child(12) input[type="checkbox"]:checked + label{
+  background: #dfe91e;
+  color: #fff;
+  box-shadow: 0 2px 20px #dfe91e;
+}
+
+.container div:nth-child(13) input[type="checkbox"]:checked + label{
+  background: #036200;
+  color: #fff;
+  box-shadow: 0 2px 20px #036200;
+}
+
+.container div:nth-child(14) input[type="checkbox"]:checked + label{
+  background: #300060;
+  color: #fff;
+  box-shadow: 0 2px 20px #300060;
+}
+
+/* TOPPINGS */
+.container-1 {
+  max-width: 1200px;
+  /* margin: 0 auto; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-1 div{
+  margin: 10px;
+
+}
+
+.container-1 div label{
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  background: #424242;
+  padding: 15px 30px;
+  color: #555;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  font-size: 20px;
+  transition: 0.5s;
+  user-select: none;
+  overflow: hidden;
+}
+
+.container-1 div input[type="checkbox"] {
+  display: none;
+}
+/* INGRIDIENTS COLOR */
+.container-1 div:nth-child(1) input[type="checkbox"]:checked + label{
+  background: linear-gradient(45deg, #896701, #4e2302);
+  color: #fff;
+  box-shadow: 0 2px 20px linear-gradient(45deg, #896701, #4e2302);
+}
+
+.container-1 div:nth-child(2) input[type="checkbox"]:checked + label{
+  background: linear-gradient(45deg, #ffbf00, #e7aa00);
+  color: #fff;
+  box-shadow: 0 2px 20px linear-gradient(45deg, #ffbf00, #e7aa00);
+}
+
+.container-1 div:nth-child(3) input[type="checkbox"]:checked + label{
+  background: linear-gradient(45deg, #281300, #43230b);
+  color: #fff;
+  box-shadow: 0 2px 20px linear-gradient(45deg, #281300, #43230b);
+}
+
+.container-1 div:nth-child(4) input[type="checkbox"]:checked + label{
+  background: linear-gradient(45deg, #e5e5e5, #c3c3c3);
+  color: #fff;
+  box-shadow: 0 2px 20px linear-gradient(45deg, #e5e5e5, #c3c3c3);
+}
+
+.heading{
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+button{
+  font-size: 20px;
+  padding: 15px 20px;
+  background-color: #ff9100;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 2px 2px #0000006b;
+}
+
+.form-output{
+  margin-top: 100px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
